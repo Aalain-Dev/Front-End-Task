@@ -25,8 +25,18 @@
 .flex{
     display: flex;
 }
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
 .justify-between{
     justify-content: space-between;
+}
+.hover:hover{
+color: #008A59;
+font-weight: 500 ;
+}
+.align-end{
+    align-items: end;
 }
 .justify-end{
     justify-content: end;
@@ -91,6 +101,9 @@ a{
 .flex-column{
     flex-direction: column;
 }
+.pointer{
+    cursor: pointer;
+}
 /* Our Mission Section Starts here */
 .mission-heading-text{
     margin-bottom: 20px;
@@ -146,7 +159,7 @@ a{
     font-size: 14px;
 }
 .location-icon-text{
-    font-size: 20px;
+    font-size: 18px;
 }
 .right-border{
 border-right: 1px solid #000;
@@ -218,6 +231,61 @@ ul.custom-owl-dots li{
     height: 20px;
     background-color: #000;
 }
+/* .owl-carousel .owl-nav{
+    position: absolute;
+    top: 0;
+} */
+.owl-theme .owl-dots{
+        position: absolute;
+    bottom: 11px;
+    left: 47%;
+}
+.owl-theme .owl-dots .owl-dot{
+    background-color: transparent!important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 30%;
+    font-size: 102px !important;
+    color: #dfdfdf!important ;
+font-weight: 100;
+    right: 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px!important;
+    height: 10px;
+    margin: 5px 7px;
+    background: transparent!important;
+    display: block;
+border: 1px solid #000;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #ffff!important;
+
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 30%;
+    font-size: 102px !important;
+    color: #dfdfdf !important;
+font-weight: 100;
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent !important;
+}
+.hide-991px{
+display: block;
+}
+.show-991px{
+    display: none!important;
+}
 /* Carosuel ends here  */
 
 /* navbar starts here */
@@ -225,8 +293,9 @@ ul.custom-owl-dots li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: ;
-    padding: 10px 20px;
+  overflow: visible;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar .logo a {
@@ -238,7 +307,8 @@ ul.custom-owl-dots li{
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 14px;
+    justify-content: space-between;
 }
 
 .nav-links li {
@@ -258,9 +328,9 @@ ul.custom-owl-dots li{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333;
+    background-color: #f7f7f7;
     min-width: 160px;
-    z-index: 100;
+    z-index: 5;
 }
 
 .dropdown:hover .dropdown-content {
@@ -272,9 +342,6 @@ ul.custom-owl-dots li{
     text-align: left;
 }
 
-.dropdown-content a:hover {
-    background-color: #575757;
-}
 
 .search-bar {
     display: flex;
@@ -304,11 +371,60 @@ ul.custom-owl-dots li{
     width: 200px;
 
 }
-.search-button{
-    top: 0;
-    right: 0;
+.search-text{
+    padding: 10px;
+    border-radius: 14px;
+    outline: none;
+    padding-right: 20px;
+    width: 227px;
+    padding-right: 52px;
+    border: 1px solid #000;
 }
+.bg-green{
+    background-color: #008A59;
+    color: #fff;
+    padding: 9px 10px;
+    width: 50px;
+    top: 0;
+    right: 1px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 13px;
 
+}
+span.rotate{
+    transform: rotate3d(10deg);
+}
+.mobile-show-1000{
+    display: none;
+}
+.responsive-menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff  ;
+    z-index: 10000;
+    display: none;
+}
+.responsive-menu{
+    padding: 10px 20px  ;
+}
+.menu-text-sect ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.custom-left {
+    left: 177px;
+}
+.menu-icon{
+    font-size: 20px;
+}
+.active{
+    display: block;
+}
 /* navbar ends here */
 @media screen and (max-width:991px) {
     .blog {
@@ -333,6 +449,12 @@ ul.custom-owl-dots li{
     .text-center-991{
         text-align: center;
     }
+    .hide-991px{
+        display: none!important;
+        }
+        .show-991px{
+            display: block!important;
+        }
 }
 
 @media screen and (max-width:500px) {
@@ -341,5 +463,32 @@ ul.custom-owl-dots li{
     }
     .left-sect-span-text {
         font-size: 13px;
+    }
+    .mobile-width{
+        width: 150px;
+    }
+    .search-text {
+        width: 150px;
+     
+    }
+    .custom-width{
+        width: auto;
+    }
+    .custom-left {
+        left: 194px;
+    }
+    .mission-text {
+        font-size: 14px;
+        line-height: 20px;
+       
+    }
+
+}
+@media screen and (max-width:1000px) {
+    .hide-mobile-1000{
+        display: none;
+    }
+    .mobile-show-1000{
+        display: block;
     }
 }

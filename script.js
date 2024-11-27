@@ -1,3 +1,5 @@
+// caraousel js
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -16,4 +18,17 @@ $('.owl-carousel').owlCarousel({
             items:1
         }
     }
+})
+
+// Menu Js
+var Menu_Bar = document.querySelector('#menu-bar');
+
+var Menu_Close = document.querySelector('.responsive-menu');
+var Cross_Icon = document.querySelector("#menu-close");
+
+Menu_Bar.addEventListener('click',function(){
+    Menu_Close.style.display = "block";
+})
+Cross_Icon.addEventListener('click',function(){
+    Menu_Close.style.display = "none";
 })
