@@ -459,8 +459,25 @@ padding-right: 14px;
         .show-991px{
             display: block!important;
         }
-}
+        .owl-theme .owl-dots {
+            position: absolute;
+            bottom: 11px;
+            left: 43%;
+        }
+        
 
+.owl-carousel .owl-nav button.owl-prev{
+    font-size: 50px!important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 50px!important;
+}
+}
+@media screen and(max-width:600px) {
+    .owl-theme .owl-dots {
+        left: 43%;
+    }
+}
 @media screen and (max-width:500px) {
     .left-sect-head-text {
         font-size: 16px;
@@ -485,6 +502,13 @@ padding-right: 14px;
         font-size: 14px;
         line-height: 20px;
        
+    }
+    .owl-theme .owl-dots {
+        left: 35%;
+    }
+    .mission-section {
+        margin-top: 26px;
+        margin-bottom: 27px;
     }
 
 }
