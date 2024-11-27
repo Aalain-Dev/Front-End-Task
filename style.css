@@ -104,189 +104,6 @@ a{
 .pointer{
     cursor: pointer;
 }
-/* Our Mission Section Starts here */
-.mission-heading-text{
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-.mission-text{
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 200;
-    color: #636363;
-}
-.mission-section{
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-/* Our Mission Section Ends here */
-/* Footer Starts Here */
-.bg-padding{
-    padding: 20px;
-}
-.footer-heading{
-    font-weight: 600;
-    color: #fff;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.footer-text{
-    font-size: 15px;
-    color: #fff;
-}
-/* Footer Ends Here */
-/* Subfooter starts here */
-.sub-footer{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.sub-footer-text-1{
-    font-size: 14px;
-}
-.sub-footer-icon-text{
-    font-size: 16px;
-}
-/* Subfooter ends here */
-
-/* sub header starts here */
-.sub-header-bg-color{
-    background-color: #F2F3F5;
-}
-.sub-header-padding{
-    padding: 10px;
-}
-.sub-header-text{
-    font-size: 14px;
-}
-.location-icon-text{
-    font-size: 18px;
-}
-.right-border{
-border-right: 1px solid #000;
-padding-right: 14px;
-}
-.margin-top{
-    margin-top: -10px;
-}
-/* sub header ends here */
-/* Blog section starts here  */
-.blog-section{
-    background-color: #F2F3F5;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.blog{
-    background-color: #fff;
-    padding: 10px 20px; 
-}
-.left-sect{
-    border: 1px solid #cccccc;
-}
-.left-sect-text-part{
-    padding: 10px;
-}
-.green-box p{
-    font-size: 28px;
-    background-color: #008a59;
-    width: 90px;
-    color: #fff;
-    font-weight: 999;
-    text-align: center;
-    padding:10px ;
-}
-.positions{
-    bottom: 3px;
-    left: 0;
-}
-.rectangle{
-    border: 1px solid #cccccc;
-    padding: 12px 13px;
-    border-right: 5px solid #008a59;
-}
-
-.image-width
-{
-    width: 100%;
-}
-.left-sect-head-text{
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-.left-sect-span-text{
-font-size: 14px;
-margin-bottom: 10px;
-}
-/* Blog section ends here  */
-/* Carosuel starts here  */
-ul.custom-owl-dots{
-    display: flex;
-    gap: 10px;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-}
-ul.custom-owl-dots li{
-    width: 100px;
-    height: 20px;
-    background-color: #000;
-}
-/* .owl-carousel .owl-nav{
-    position: absolute;
-    top: 0;
-} */
-.owl-theme .owl-dots{
-        position: absolute;
-    bottom: 11px;
-    left: 47%;
-}
-.owl-theme .owl-dots .owl-dot{
-    background-color: transparent!important;
-}
-.owl-carousel .owl-nav button.owl-next{
-    position: absolute;
-    top: 30%;
-    font-size: 102px !important;
-    color: #dfdfdf!important ;
-font-weight: 100;
-    right: 0;
-}
-.owl-theme .owl-dots .owl-dot span {
-    width: 30px!important;
-    height: 10px;
-    margin: 5px 7px;
-    background: transparent!important;
-    display: block;
-border: 1px solid #000;
-    transition: opacity .2s ease;
-    border-radius: 30px;
-}
-
-.owl-theme .owl-dots .owl-dot.active span{
-    background-color: #ffff!important;
-
-}
-.owl-carousel .owl-nav button.owl-next:hover{
-    background-color: transparent !important;
-}
-.owl-carousel .owl-nav button.owl-prev{
-    position: absolute;
-    top: 30%;
-    font-size: 102px !important;
-    color: #dfdfdf !important;
-font-weight: 100;
-    left: 0;
-}
-.owl-carousel .owl-nav button.owl-prev:hover{
-    background-color: transparent !important;
-}
-.hide-991px{
-display: block;
-}
-.show-991px{
-    display: none!important;
-}
-/* Carosuel ends here  */
-
 /* navbar starts here */
 .navbar {
     display: flex;
@@ -425,6 +242,194 @@ span.rotate{
     display: block;
 }
 /* navbar ends here */
+/* Carosuel starts here  */
+ul.custom-owl-dots{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+ul.custom-owl-dots li{
+    width: 100px;
+    height: 20px;
+    background-color: #000;
+}
+/* .owl-carousel .owl-nav{
+    position: absolute;
+    top: 0;
+} */
+.owl-theme .owl-dots{
+        position: absolute;
+    bottom: 11px;
+    left: 47%;
+}
+.owl-theme .owl-dots .owl-dot{
+    background-color: transparent!important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 30%;
+    font-size: 102px !important;
+    color: #dfdfdf!important ;
+font-weight: 100;
+    right: 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px!important;
+    height: 10px;
+    margin: 5px 7px;
+    background: transparent!important;
+    display: block;
+border: 1px solid #000;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #ffff!important;
+
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 30%;
+    font-size: 102px !important;
+    color: #dfdfdf !important;
+font-weight: 100;
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent !important;
+}
+.hide-991px{
+display: block;
+}
+.show-991px{
+    display: none!important;
+}
+/* Carosuel ends here  */
+
+
+/* Our Mission Section Starts here */
+.mission-heading-text{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.mission-text{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    color: #636363;
+}
+.mission-section{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+/* Our Mission Section Ends here */
+/* Blog section starts here  */
+.blog-section{
+    background-color: #F2F3F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blog{
+    background-color: #fff;
+    padding: 10px 20px; 
+}
+.left-sect{
+    border: 1px solid #cccccc;
+}
+.left-sect-text-part{
+    padding: 10px;
+}
+.green-box p{
+    font-size: 28px;
+    background-color: #008a59;
+    width: 90px;
+    color: #fff;
+    font-weight: 999;
+    text-align: center;
+    padding:10px ;
+}
+.positions{
+    bottom: 3px;
+    left: 0;
+}
+.rectangle{
+    border: 1px solid #cccccc;
+    padding: 12px 13px;
+    border-right: 5px solid #008a59;
+}
+
+.image-width
+{
+    width: 100%;
+}
+.left-sect-head-text{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.left-sect-span-text{
+font-size: 14px;
+margin-bottom: 10px;
+}
+/* Blog section ends here  */
+/* Footer Starts Here */
+.bg-padding{
+    padding: 20px;
+}
+.footer-heading{
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer-text{
+    font-size: 15px;
+    color: #fff;
+}
+/* Footer Ends Here */
+/* Subfooter starts here */
+.sub-footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sub-footer-text-1{
+    font-size: 14px;
+}
+.sub-footer-icon-text{
+    font-size: 16px;
+}
+/* Subfooter ends here */
+
+/* sub header starts here */
+.sub-header-bg-color{
+    background-color: #F2F3F5;
+}
+.sub-header-padding{
+    padding: 10px;
+}
+.sub-header-text{
+    font-size: 14px;
+}
+.location-icon-text{
+    font-size: 18px;
+}
+.right-border{
+border-right: 1px solid #000;
+padding-right: 14px;
+}
+.margin-top{
+    margin-top: -10px;
+}
+/* sub header ends here */
+
+
+
+
 @media screen and (max-width:991px) {
     .blog {
         flex-direction: column;
