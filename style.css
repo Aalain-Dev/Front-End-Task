@@ -334,6 +334,8 @@ display: block;
     background-color: #F2F3F5;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .blog{
     background-color: #fff;
